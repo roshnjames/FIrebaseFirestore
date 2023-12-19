@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@android:color/darker_gray"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="                             ~Roshin😊"
+        android:textSize="60px"
+        android:height="150px"
+        android:width="800px"
+        android:id="@+id/tv1"
+        android:textColor="@android:color/black"
+        android:padding="10dp"
+        android:background="@color/cardview_light_background" />
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="6"
+        android:columnCount="3">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:height="100px"
+            android:width="80px"
+            android:layout_margin="30px"
+            android:id="@+id/one" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:height="100px"
+            android:layout_margin="30px"
+            android:id="@+id/two" />
+
+        <Button
+            android:id="@+id/three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30px"
+            android:width="80px"
+            android:height="100px"
+            android:text="3" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:height="100px"
+            android:width="80px"
+            android:layout_margin="30px"
+            android:id="@+id/four" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:height="100px"
+            android:layout_margin="30px"
+            android:id="@+id/five" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:height="100px"
+            android:width="80px"
+            android:layout_margin="30px"
+            android:id="@+id/six"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:height="100px"
+            android:width="80px"
+            android:layout_margin="30px"
+            android:id="@+id/seven" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:height="100px"
+            android:layout_margin="30px"
+            android:id="@+id/eight" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9"
+            android:height="100px"
+            android:width="80px"
+            android:layout_margin="30px"
+            android:id="@+id/nine" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:height="100px"
+            android:width="80px"
+            android:layout_margin="30px"
+            android:id="@+id/zero" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="➕"
+            android:height="100px"
+            android:layout_margin="30px"
+            android:id="@+id/plus" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="➖"
+            android:height="100px"
+            android:width="80px"
+            android:layout_margin="30px"
+            android:id="@+id/minus" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="️➗️"
+            android:height="100px"
+            android:width="80px"
+            android:layout_margin="30px"
+            android:id="@+id/div" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✖"
+            android:height="100px"
+            android:layout_margin="30px"
+            android:id="@+id/mul" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="%"
+            android:height="100px"
+            android:width="80px"
+            android:layout_margin="30px"
+            android:id="@+id/mod" />
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30px"
+            android:width="80px"
+            android:height="100px"
+            android:backgroundTint="#E46D10"
+            android:text="️AC" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:textSize="30px"
+            android:height="100px"
+            android:layout_margin="30px"
+            android:id="@+id/point" />
+
+        <Button
+            android:id="@+id/equals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30px"
+            android:width="80px"
+            android:height="100px"
+            android:backgroundTint="#1ADC1D"
+            android:text="==" />
+    </GridLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0px"
+        android:text="This calculator is a test😊🟢"/>
+</LinearLayout>
